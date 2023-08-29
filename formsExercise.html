@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Customer Experience Survey</legend>
+        <label for="cold">Store Number</label>
+            <select name="cold" id="cold">
+                <option value="iceCream">3109</option>
+                <option value="pudding">2421</option>
+                <option value="cupcake">5357</option>
+            </select>
+            <fieldset>
+                <legend>When you visited:</legend>
+                <label for="date">Date Visited</label>
+                <input type="date" name="date" id="date">
+                <br>
+                <label for="time">Time</label>
+                <input type="time" name="time" id="time">
+            </fieldset> 
+            <label for="name">Full Name</label>
+            <input type="text" placeholder="Name" id="name">
+            <br>
+            <label for="name">Email</label>
+            <input type="email" placeholder="Email" id="email">
+            <fieldset>
+                <legend>How would you rate your level of satisfaction with your visit?</legend>
+                
+    <input type="radio" name="satisfaction" id="satisfied" value="satisfied">
+    <label for="cheese">Satisfied</label>
+    <br>
+    <input type="radio" name="satisfaction" id="neither" value="neither">
+    <label for="neither">Neither Satisfied nor Dissatisfied</label>
+    <br>
+    <input type="radio" name="satisfaction" id="dissatisfied" value="dissatisfied">
+    <label for="dissatisfied">Dissatisfied</label>
+            </fieldset>
+            <p>Tell us about your experience:</p>
+            <textarea name="tellus" id="tellus" cols="20" rows="2"></textarea>
+            <br>
+            <p>Times visited in the last month:</p>
+            <input type="number" name="" id="times">
+            <br>
+            <input type="checkbox" name="contact" id="contact">
+            <label for="contact">Please check the box if you would be willing to be contacted about your experience</label>
+            <br>    
+            <input type="submit" value="Submit">
+    </fieldset>
+</body>
+</html>
